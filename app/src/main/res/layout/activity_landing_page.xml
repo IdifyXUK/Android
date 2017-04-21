@@ -14,7 +14,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
-        android:contentDescription="@string/Company logo (White version)"
+        android:contentDescription="@string/company_logo_white_version"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -27,11 +27,14 @@
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
         android:background="#0B24FD"
-        android:text="@string/Login via Facebook"
+        android:text="@string/login_via_facebook"
         android:textColor="#fff"
         app:layout_constraintBottom_toTopOf="@+id/landingPageLoginButton"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <Button
         android:id="@+id/landingPageSignUpButton"
@@ -43,7 +46,9 @@
         android:textColor="#fff"
         app:layout_constraintBottom_toTopOf="@+id/landingPageFacebookLoginButton"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />
 
     <Button
         android:id="@+id/landingPageLoginButton"
@@ -51,11 +56,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:background="#56A9F6"
-        android:contentDescription="@string/Company Logo (White Version)"
         android:elevation="0dp"
         android:text="@string/have_an_account_already_click_me"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="UnusedAttribute" />
 </android.support.constraint.ConstraintLayout>

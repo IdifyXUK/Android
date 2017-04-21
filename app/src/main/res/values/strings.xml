@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Idify</string>
+    <string name="company_logo_white_version"> Idify Logo (White Version) </string>
     <string name="have_an_account_already_click_me">Have an account already? Click Me</string>
     <string name="join_idify">Join Idify</string>
+    <string name="login_via_facebook">Login via Facebook</string>
 </resources>

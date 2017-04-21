@@ -14,7 +14,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
-        android:contentDescription="@string/Company logo (White version)"
+        android:contentDescription="@string/company_logo_white_version"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -22,40 +22,48 @@
         app:srcCompat="@drawable/whitelogo1" />
 
     <Button
-        android:id="@+id/landingPageFacebookLoginButton"
-        android:layout_width="395dp"
+        android:id="@+id/landingPageSignUpButton"
+        android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_margin="8dp"
         android:layout_marginBottom="8dp"
         android:background="#0B24FD"
-        android:text="@string/Login via Facebook"
+        android:text="@string/join_idify"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/landingPageFacebookLoginButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/landingPageFacebookLoginButton"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#0B24FD"
+        android:text="@string/login_via_facebook"
         android:textColor="#fff"
         app:layout_constraintBottom_toTopOf="@+id/landingPageLoginButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
-        android:id="@+id/landingPageSignUpButton"
-        android:layout_width="395dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="8dp"
-        android:background="#0B24FD"
-        android:text="@string/join_idify"
-        android:textColor="#fff"
-        app:layout_constraintBottom_toTopOf="@+id/landingPageFacebookLoginButton"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
-
-    <Button
         android:id="@+id/landingPageLoginButton"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:background="#56A9F6"
-        android:contentDescription="@string/Company Logo (White Version)"
+        android:contentDescription="@string/company_logo_white_version"
         android:elevation="0dp"
         android:text="@string/have_an_account_already_click_me"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
