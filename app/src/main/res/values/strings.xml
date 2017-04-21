@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Idify</string>
+    <string name="have_an_account_already_click_me">Have an account already? Click Me</string>
+    <string name="join_idify">Join Idify</string>
 </resources>
